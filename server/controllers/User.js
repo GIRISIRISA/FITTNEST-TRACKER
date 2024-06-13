@@ -64,7 +64,7 @@ export const UserLogin = async (req, res, next) => {
   } catch (error) {
     return next(error);
   }
-};
+}
 
 export const getUserDashboard = async (req, res, next) => {
   try {
